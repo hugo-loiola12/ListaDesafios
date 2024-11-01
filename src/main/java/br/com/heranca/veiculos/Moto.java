@@ -19,4 +19,10 @@ public class Moto extends Veiculo {
     public int setCilindradas(int cilindradas) {
         return this.cilindradas = cilindradas;
     }
+
+    @Override
+    public void mostrarInformacao() {
+        super.mostrarInformacao();
+        System.out.println("Cilindradas: " + cilindradas);
+    }
 }

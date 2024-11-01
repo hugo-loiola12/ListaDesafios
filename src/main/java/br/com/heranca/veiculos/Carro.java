@@ -29,4 +29,11 @@ public class Carro extends Veiculo {
     public void setTamanhoPortaMalas(float tamanhoPortaMalas) {
         this.tamanhoPortaMalas = tamanhoPortaMalas;
     }
+
+    @Override
+    public void mostrarInformacao() {
+        super.mostrarInformacao();
+        System.out.println("Quantidade de portas: " + getQuantidadePortas());
+        System.out.println("Tamanho do porta malas: " + getTamanhoPortaMalas() + "l");
+    }
 }

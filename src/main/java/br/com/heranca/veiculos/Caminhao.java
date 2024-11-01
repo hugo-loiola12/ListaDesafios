@@ -29,4 +29,11 @@ public class Caminhao extends Veiculo {
     public void setNumeroEixos(int numeroEixos) {
         this.numeroEixos = numeroEixos;
     }
+
+    @Override
+    public void mostrarInformacao() {
+        super.mostrarInformacao();
+        System.out.println("Carga máxima: " + carga);
+        System.out.println("Numero Eixos: " + numeroEixos);
+    }
 }

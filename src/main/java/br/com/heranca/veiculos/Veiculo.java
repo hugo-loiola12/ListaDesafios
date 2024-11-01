@@ -28,4 +28,10 @@ public abstract class Veiculo {
     public void setAno(int ano) {
         this.ano = ano;
     }
+
+    public void mostrarInformacao() {
+        System.out.println("Marca: " + marca);
+        System.out.println("Modelo: " + modelo);
+        System.out.println("Ano: " + ano);
+    }
 }
