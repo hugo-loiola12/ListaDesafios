@@ -10,6 +10,6 @@ public class Diretor extends Pessoa {
 
     @Override
     public float calculaSalario() {
-        return super.calculaSalario();
+        return (getSalario() * 2);
     }
 }
