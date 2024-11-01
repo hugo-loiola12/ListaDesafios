@@ -11,6 +11,6 @@ public class Funcionario extends Pessoa {
 
     @Override
     public float calculaSalario() {
-        return super.calculaSalario();
+        return (getSalario() * 1.2f);
     }
 }

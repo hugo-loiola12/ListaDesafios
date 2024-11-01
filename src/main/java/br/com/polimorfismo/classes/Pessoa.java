@@ -3,14 +3,14 @@ package br.com.polimorfismo.classes;
 public abstract class Pessoa {
 
     private String nome;
-    private float salarioBase;
+    private float salario;
 
     public float getSalario() {
-        return salarioBase;
+        return salario;
     }
 
     public void setSalario(float salario) {
-        this.salarioBase = salario;
+        this.salario = salario;
     }
 
     public String getNome() {

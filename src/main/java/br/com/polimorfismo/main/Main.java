@@ -10,9 +10,11 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
 
-        Funcionario funcionario = new Funcionario("Hugo", 5005.65f);
-        Gerente gerente = new Gerente("Juan", 11000.80f);
-        Diretor diretor = new Diretor("Gustavo", 72000.70f);
+        System.out.println("------------ Polimorfismo -----------");
+
+        Funcionario funcionario = new Funcionario("Hugo", 2545.65f);
+        Gerente gerente = new Gerente("Juan", 11000.65f);
+        Diretor diretor = new Diretor("Gustavo", 50000.0f);
 
 
         // Inicializar folha de pagamento
